@@ -10,6 +10,7 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
+    "lint": "eslint src",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
